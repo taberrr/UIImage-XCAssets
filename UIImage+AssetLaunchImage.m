@@ -61,7 +61,7 @@ static NSString * const kAssetImageSizeFormatString						= @"{%.0f,%.0f}";
 		[imageNameString appendFormat:kAssetImageHeightFormatString, screenHeight];
 	}
 	if (scale > 1) {
-		[imageNameString appendFormat:kAssetImageScaleFormatString, scale];
+//		[imageNameString appendFormat:kAssetImageScaleFormatString, scale];
 	}
 	if (isiPad) {
 		[imageNameString appendString:kAssetImageiPadPostfix];
